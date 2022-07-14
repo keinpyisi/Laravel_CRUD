@@ -4,5 +4,7 @@ composer create-project laravel/laravel 名前
 php artisan make:model 名前  -mcr
 --.env 編集
 -- migrationファイル編集
+--migrate
+php artisan migrate
 --起動
 php artisan serve

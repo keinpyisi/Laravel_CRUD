@@ -1,0 +1,8 @@
+ー新しいProject
+composer create-project laravel/laravel 名前
+--Model,Database Table,Controllerを作る
+php artisan make:model 名前  -mcr
+--.env 編集
+-- migrationファイル編集
+--起動
+php artisan serve
